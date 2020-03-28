@@ -1,0 +1,130 @@
+body{
+    background: linear-gradient(135deg, rgba(26,122,212,1) 0%, rgba(10,64,122,1) 100%);
+    background-size: cover;
+}
+
+.barra{
+    background-color: rgb(59, 58, 58);
+    width: 100%;
+    height: 50px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.paginas-bar{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.titlePage{
+    font-family: 'Karla', sans-serif;
+    font-size: 24px;
+}
+
+.layout{
+    background-color: white;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+input{
+    border-radius: 5px;
+    border: 1px solid #39c;
+    font-size: medium;
+}
+
+input:focus{
+    border-radius: 5px;
+    border: 1px solid rgb(10, 28, 131);
+}
+input:active{
+    border-radius: 5px;
+    border: 1px solid rgb(10, 28, 131);
+}
+.subtitle{
+    margin-left: 5%;
+    padding-top: 2%;
+    font-size: 20px;
+    font-family: 'Dosis', sans-serif;
+}
+
+.contenido{
+    margin-left:5%;
+    margin-top: 2%;
+}
+
+label{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.input-form{
+    margin-top: 15px;
+}
+
+.btn-Ok{
+    text-align: center;
+    padding: 10px 30px;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    background-color: rgb(129, 236, 6);
+    color: white;
+    border: 1px solid  rgb(96, 177, 4); 
+    border-radius: 10px;
+    transition: 0.6s ease all;
+}
+
+.btn-Ok:hover{
+    background-color: chartreuse;
+}
+
+.flex-container {
+    padding: 0;
+    margin: 0;
+    display: flex;
+  }
+
+  .wrap    { 
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }  
+
+  .flex-item {
+    background: tomato;
+    padding: 5px;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    
+    line-height: 100px;
+    color: white;
+    font-weight: bold;
+    font-size: 2em;
+    text-align: center;
+  }
+
+  .btn-pagina{
+    border: 1px solid black;
+    font-size: 16px;
+    text-decoration: none;
+    color: black;
+    margin: 5px;
+    background-color: white;
+    padding: 15px;
+  }
+
+  .btn-pagina:hover{
+      background-color: rgb(252, 96, 6);
+  }
+
+  .imagen{
+      width: 300px;
+      margin: 30px;
+      height: 300px;
+      background-size: cover;
+      border: 1px solid rgb(177, 9, 177);
+  }

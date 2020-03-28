@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Album de Fotos</title>
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="index.css">
+    <link href="https://fonts.googleapis.com/css?family=Dosis|Karla|Montserrat|Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="barra">
+        <div class="titlePage">
+            Album de Fotos
+        </div>
+    </div>
+    <div class="layout">
+        <div class="subtitle">
+            Esta es una app para ver fotos por paginas.
+        </div>
+        <div class="contenido">
+            <div>Escribe un numero mayor que cero y menor o igual que 100</div>
+            <div class="input-form row">
+                <label for="numeroFotos">Numero de Fotos: </label>
+                <input type="number" name="numeroFotos" id="numeroFotos" min="1" max="100"> <br>
+            </div>
+            <div style="margin-top:20px; margin-bottom: 20px;">
+                <a href="#" class="btn-Ok" id="boton">OK</a> 
+            </div>
+            <div class="flex-container wrap" id="contenedorFotos"></div>
+        </div>
+        <div class="paginas-bar wrap" id="paginas-bar">
+
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
